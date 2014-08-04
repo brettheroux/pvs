@@ -1,0 +1,12 @@
+defaults: &defaults
+  VOTE_SMART_API_KEY: # key goes here http://api.votesmart.org/docs
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
